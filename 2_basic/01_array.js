@@ -61,8 +61,16 @@ let D = 80
 console.log(Array.of(A, B, c, D));
 // output = [20,40,60,80] , so Array.of is used to make an array of pre defined data
 
-
-
+const users = [
+    { name: "Tarush", age: 21 },
+    { name: "Ananya", age: 16 },
+    { name: "Rahul", age: 25 },
+    { name: "Siddharth", age: 12 }
+];
+const adults = users.filter(user => user.age >= 18);
+console.log(adults);
+// filter() method is a built-in array function used to create a new array containing only the 
+// elements from the original array that pass a specific condition
 
 
 
