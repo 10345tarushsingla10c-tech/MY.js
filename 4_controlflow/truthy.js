@@ -16,5 +16,22 @@ if (age){
 
 // truthy values are " " , "0" , true , [] , () , {}
 
+// Nulish Coalescing operator ??
+
+let val1;
+val1 = 10 ?? 30
+
+console.log(val1); //output is 10 prints first value
+
+let val2;
+val2 = null ?? 5
+console.log(val2); // output 5 , it is for removing null and undefined values
+
+// ternary operator ?
+// condition ? true:false
+const price = 100
+price <=70 ? console.log("less than 70") : console.log("more than 70");
+                   //  first statement              second statement
+
 
     
